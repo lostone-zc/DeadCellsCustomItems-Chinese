@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\bin\\Debug",
+    "\\bin\\Debug\\net462",
+    "\\bin\\Release",
+    "\\bin\\Release\\net462",
+    "\\obj",
+    "\\obj\\Debug",
+    "\\obj\\Debug\\net462",
+    "\\obj\\Release",
+    "\\obj\\Release\\net462"
+  ],
+  "SelectedNode": "\\CustomItems.cs",
+  "PreviewInSolutionExplorer": false
+}

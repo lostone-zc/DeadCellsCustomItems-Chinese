@@ -1,0 +1,18 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "coreclr",
+      "name": "CustomItems.cs",
+      "project": "CustomItems.cs",
+      "projectTarget": ""
+    },
+    {
+      "type": "managed",
+      "name": "CustomItems.cs(1)",
+      "project": "CustomItems.cs",
+      "projectTarget": ""
+    }
+  ]
+}
