@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-CustomItems",
+      "appliesTo": "CustomItems/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-CustomItems",
+      "appliesTo": "CustomItems/",
+      "type": "launch"
+    }
+  ]
+}
