@@ -1,8 +1,9 @@
 # Custom Items from the game Dead Cells for Skul: the Hero Slayer
 
 ## PLEASE BE AWARE!!!
-This project is a variation/fork of MrBacanudo's [Custom Items mod](https://github.com/MrBacanudo/SkulHardModeMods/tree/main/CustomItems).
+This project is a variation of MrBacanudo's [Custom Items mod](https://github.com/MrBacanudo/SkulHardModeMods/tree/main/CustomItems).
 None of the code belongs to me excluding content related to custom Dead Cells items.
+...Also, I forgot to fork the original repository because I didn't know how to fork at the time. Sorry about that!
 
 ## Content
 This mod contains:
