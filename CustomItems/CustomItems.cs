@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+ï»¿using System.Collections.Generic;
 using System.Linq;
 using Characters;
 using Characters.Abilities;
@@ -26,15 +26,15 @@ public class CustomItems
             item.rarity = Rarity.Legendary;
 
             // EN: Cursed Sword
-            // KR: ÀúÁÖ¹ŞÀº °Ë
+            // KR: ì €ì£¼ë°›ì€ ê²€
             item.itemName = "Cursed Sword";
 
             // EN: Increases <color=#F25D1C>Physical Attack</color> by 1000%, and amplifies <color=#F25D1C>Physical Attack</color> by 400%.\nInstant death when hit, negating damage nullification except for invincibility and parrying.
-            // KR: <color=#F25D1C>¹°¸®°ø°İ·Â</color>ÀÌ 1000% Áõ°¡ ¹× 300% ÁõÆøµË´Ï´Ù.\nÇÇ°İ ½Ã ¹«Àû°ú ÆĞ¸µÀ» Á¦¿ÜÇÑ ¸ğµç ÇÇÇØ ¹«È¿È­ ¼ö´ÜÀ» ¹«½ÃÇÏ°í Áï»çÇÕ´Ï´Ù.
+            // KR: <color=#F25D1C>ë¬¼ë¦¬ê³µê²©ë ¥</color>ì´ 1000% ì¦ê°€ ë° 300% ì¦í­ë©ë‹ˆë‹¤.\ní”¼ê²© ì‹œ ë¬´ì ê³¼ íŒ¨ë§ì„ ì œì™¸í•œ ëª¨ë“  í”¼í•´ ë¬´íš¨í™” ìˆ˜ë‹¨ì„ ë¬´ì‹œí•˜ê³  ì¦‰ì‚¬í•©ë‹ˆë‹¤.
             item.itemDescription = "Increases <color=#F25D1C>Physical Attack</color> by 1000%, and amplifies <color=#F25D1C>Physical Attack</color> by 400%.\nInstant death when hit, negating damage nullification except for invincibility and parrying.";
 
             // EN: Kill before you get killed. Simple, right?
-            // KR: ÀÚ, Á×±â Àü¿¡ Á×ÀÌ¸é µÅ. °£´ÜÇÏÁö?
+            // KR: ì, ì£½ê¸° ì „ì— ì£½ì´ë©´ ë¼. ê°„ë‹¨í•˜ì§€?
             item.itemLore = "Kill before you get killed. Simple, right?";
 
             item.prefabKeyword1 = Inscription.Key.Execution;
@@ -58,15 +58,15 @@ public class CustomItems
             item.rarity = Rarity.Unique;
 
             // EN: Mysterious Scroll
-            // KR: ¹ÌÁöÀÇ µÎ·ç¸¶¸®
+            // KR: ë¯¸ì§€ì˜ ë‘ë£¨ë§ˆë¦¬
             item.itemName = "Mysterious Scroll";
 
             // EN: Increases <color=#F25D1C>Physical Attack</color> by 25%.\nIncreases skill cooldown speed by 25%.\nDecreases incoming damage by 10%.\nIncreases Max HP by 20\nThe second inscription of this item is randomly chosen between Courage, Mana Cycle, Revenge, and Mystery.\nThe improved version of this item changes depending on its second inscription.
-            // KR: <color=#F25D1C>¹°¸®°ø°İ·Â</color>ÀÌ 25% Áõ°¡ÇÕ´Ï´Ù.\n½ºÅ³ Äğ´Ù¿î ¼Óµµ°¡ 25% Áõ°¡ÇÕ´Ï´Ù.\n¹Ş´Â µ¥¹ÌÁö°¡ 10% °¨¼ÒÇÕ´Ï´Ù.\nÃÖ´ëÃ¼·ÂÀÌ 20 Áõ°¡ÇÕ´Ï´Ù\nÀÌ ¾ÆÀÌÅÛÀÇ µÎ¹øÂ° °¢ÀÎÀº ÀÓÀÇ·Î ¿ë±â, ¸¶³ª ¼øÈ¯, º¹¼ö, ±×¸®°í ½ÅºñÁß ÇÏ³ª·Î ÁöÁ¤µË´Ï´Ù.\nÀÌ ¾ÆÀÌÅÛÀÇ °­È­µÈ ¹öÀüÀº µÎ¹øÂ° °¢ÀÎ¿¡ µû¶ó ¹Ù²ò´Ï´Ù.
+            // KR: <color=#F25D1C>ë¬¼ë¦¬ê³µê²©ë ¥</color>ì´ 25% ì¦ê°€í•©ë‹ˆë‹¤.\nìŠ¤í‚¬ ì¿¨ë‹¤ìš´ ì†ë„ê°€ 25% ì¦ê°€í•©ë‹ˆë‹¤.\në°›ëŠ” ë°ë¯¸ì§€ê°€ 10% ê°ì†Œí•©ë‹ˆë‹¤.\nìµœëŒ€ì²´ë ¥ì´ 20 ì¦ê°€í•©ë‹ˆë‹¤\nì´ ì•„ì´í…œì˜ ë‘ë²ˆì§¸ ê°ì¸ì€ ì„ì˜ë¡œ ìš©ê¸°, ë§ˆë‚˜ ìˆœí™˜, ë³µìˆ˜, ê·¸ë¦¬ê³  ì‹ ë¹„ì¤‘ í•˜ë‚˜ë¡œ ì§€ì •ë©ë‹ˆë‹¤.\nì´ ì•„ì´í…œì˜ ê°•í™”ëœ ë²„ì „ì€ ë‘ë²ˆì§¸ ê°ì¸ì— ë”°ë¼ ë°”ë€ë‹ˆë‹¤.
             item.itemDescription = "Increases <color=#F25D1C>Physical Attack</color> by 25%.\nIncreases skill cooldown speed by 25%.\nDecreases incoming damage by 10%.\nIncreases Max HP by 30.\nThe second inscription of this item is randomly chosen between Courage, Mana Cycle, Revenge, and Mystery.\nThe improved version of this item changes depending on its second inscription.";
 
             // EN: Not knowing what is inside makes it valuable.
-            // KR: ¾È¿¡ ¹¹°¡ µé¾ú´ÂÁö ¸ğ¸£´Ï±î °¡Ä¡°¡ ÀÖ´Â ¹ıÀÌ´Ù.
+            // KR: ì•ˆì— ë­ê°€ ë“¤ì—ˆëŠ”ì§€ ëª¨ë¥´ë‹ˆê¹Œ ê°€ì¹˜ê°€ ìˆëŠ” ë²•ì´ë‹¤.
             item.itemLore = "Not knowing what is inside makes it valuable.";
 
             item.prefabKeyword1 = Inscription.Key.Masterpiece;
@@ -93,15 +93,15 @@ public class CustomItems
             item.rarity = Rarity.Unique;
 
             // EN: Scroll of Power: Evolution
-            // KR: ±Ç´ÉÀÇ µÎ·ç¸¶¸®: ÁøÈ­Ã¼
+            // KR: ê¶ŒëŠ¥ì˜ ë‘ë£¨ë§ˆë¦¬: ì§„í™”ì²´
             item.itemName = "Scroll of Power: Evolution";
 
             // EN: If this item was found unintentionally, please report to me ASAP!
-            // KR: ¸¸¾à ¿¹±âÄ¡ ¾Ê°Ô ÀÌ ¾ÆÀÌÅÛÀ» ¹ß°ßÇÏ¼Ì´Ù¸é, ÀúÇÑÅ× ¹Ù·Î ½Å°íÇØÁÖ¼¼¿ä!
+            // KR: ë§Œì•½ ì˜ˆê¸°ì¹˜ ì•Šê²Œ ì´ ì•„ì´í…œì„ ë°œê²¬í•˜ì…¨ë‹¤ë©´, ì €í•œí…Œ ë°”ë¡œ ì‹ ê³ í•´ì£¼ì„¸ìš”!
             item.itemDescription = "If this item was found unintentionally, please report to me ASAP!";
 
             // EN: W-Where did you get this from...?
-            // KR: ¹¹¾ß... ÀÌ°Å ¾îµğ¼­ °¡Á®¿Â°Å¾ß..?
+            // KR: ë­ì•¼... ì´ê±° ì–´ë””ì„œ ê°€ì ¸ì˜¨ê±°ì•¼..?
             item.itemLore = "W-Where did you get this from...?";
 
             item.prefabKeyword1 = Inscription.Key.Masterpiece;
@@ -123,15 +123,15 @@ public class CustomItems
             item.rarity = Rarity.Unique;
 
             // EN: Scroll of Power: Brutality
-            // KR: ±Ç´ÉÀÇ µÎ·ç¸¶¸®: ÀÜÈ¤¼º
+            // KR: ê¶ŒëŠ¥ì˜ ë‘ë£¨ë§ˆë¦¬: ì”í˜¹ì„±
             item.itemName = "Scroll of Power: Brutality";
 
             // EN: Increases <color=#F25D1C>Physical Attack</color> by 75%.\nIncreases Max HP by 55.
-            // KR: <color=#F25D1C>¹°¸®°ø°İ·Â</color>ÀÌ 75% Áõ°¡ÇÕ´Ï´Ù.\nÃÖ´ëÃ¼·ÂÀÌ 55 Áõ°¡ÇÕ´Ï´Ù.
+            // KR: <color=#F25D1C>ë¬¼ë¦¬ê³µê²©ë ¥</color>ì´ 75% ì¦ê°€í•©ë‹ˆë‹¤.\nìµœëŒ€ì²´ë ¥ì´ 55 ì¦ê°€í•©ë‹ˆë‹¤.
             item.itemDescription = "Increases <color=#F25D1C>Physical Attack</color> by 75%.\nIncreases Max HP by 55.";
 
             // EN: The scroll of power representing brutality.\nOnly true fighters can learn how to use this scroll.
-            // KR: ÀÜÈ¤¼ºÀ» ´ëÇ¥ÇÏ´Â ±Ç´ÉÀÇ µÎ·ç¸¶¸®.\nÁøÁ¤ÇÑ ½Î¿ò²Ûµé¸¸ÀÌ ÀÌ µÎ·ç¸¶¸®¸¦ ÀÀ¿ëÇÒ ¼ö ÀÖ´Ù.
+            // KR: ì”í˜¹ì„±ì„ ëŒ€í‘œí•˜ëŠ” ê¶ŒëŠ¥ì˜ ë‘ë£¨ë§ˆë¦¬.\nì§„ì •í•œ ì‹¸ì›€ê¾¼ë“¤ë§Œì´ ì´ ë‘ë£¨ë§ˆë¦¬ë¥¼ ì‘ìš©í•  ìˆ˜ ìˆë‹¤.
             item.itemLore = "The scroll of power representing brutality.\nOnly true fighters can learn how to use this scroll.";
 
             item.prefabKeyword1 = Inscription.Key.None;
@@ -154,15 +154,15 @@ public class CustomItems
             item.rarity = Rarity.Unique;
 
             // EN: Scroll of Power: Tactics
-            // KR: ±Ç´ÉÀÇ µÎ·ç¸¶¸®: Àü·«°¡
+            // KR: ê¶ŒëŠ¥ì˜ ë‘ë£¨ë§ˆë¦¬: ì „ëµê°€
             item.itemName = "Scroll of Power: Tactics";
 
             // EN: Increases skill cooldown speed by 75%.\nIncreases Max HP by 40.
-            // KR: ½ºÅ³ Äğ´Ù¿î ¼Óµµ°¡ 75% Áõ°¡ÇÕ´Ï´Ù.\nÃÖ´ëÃ¼·ÂÀÌ 40 Áõ°¡ÇÕ´Ï´Ù.
+            // KR: ìŠ¤í‚¬ ì¿¨ë‹¤ìš´ ì†ë„ê°€ 75% ì¦ê°€í•©ë‹ˆë‹¤.\nìµœëŒ€ì²´ë ¥ì´ 40 ì¦ê°€í•©ë‹ˆë‹¤.
             item.itemDescription = "Increases skill cooldown speed by 75%.\nIncreases Max HP by 40.";
 
             // EN: The scroll of power representing tactics.\nAlways remember that patience is the key to victory.
-            // KR: Àü·«°¡¸¦ ´ëÇ¥ÇÏ´Â ±Ç´ÉÀÇ µÎ·ç¸¶¸®.\nÄ§ÂøÇÔÀÌ¾ß¸»·Î ½Â¸®¸¦ ÇâÇÑ ±æÀÓÀ» ¸í½ÉÇÏÀÚ.
+            // KR: ì „ëµê°€ë¥¼ ëŒ€í‘œí•˜ëŠ” ê¶ŒëŠ¥ì˜ ë‘ë£¨ë§ˆë¦¬.\nì¹¨ì°©í•¨ì´ì•¼ë§ë¡œ ìŠ¹ë¦¬ë¥¼ í–¥í•œ ê¸¸ì„ì„ ëª…ì‹¬í•˜ì.
             item.itemLore = "The scroll of power representing tactics.\nAlways remember that patience is the key to victory.";
 
             item.prefabKeyword1 = Inscription.Key.None;
@@ -185,15 +185,15 @@ public class CustomItems
             item.rarity = Rarity.Unique;
 
             // EN: Scroll of Power: Survival
-            // KR: ±Ç´ÉÀÇ µÎ·ç¸¶¸®: »ıÁ¸¼ú
+            // KR: ê¶ŒëŠ¥ì˜ ë‘ë£¨ë§ˆë¦¬: ìƒì¡´ìˆ 
             item.itemName = "Scroll of Power: Survival";
 
             // EN: Decreases incoming damage by 30%.\nIncreases Max HP by 60.
-            // KR: ¹Ş´Â µ¥¹ÌÁö°¡ 30% °¨¼ÒÇÕ´Ï´Ù.\nÃÖ´ëÃ¼·ÂÀÌ 60 Áõ°¡ÇÕ´Ï´Ù.
+            // KR: ë°›ëŠ” ë°ë¯¸ì§€ê°€ 30% ê°ì†Œí•©ë‹ˆë‹¤.\nìµœëŒ€ì²´ë ¥ì´ 60 ì¦ê°€í•©ë‹ˆë‹¤.
             item.itemDescription = "Decreases incoming damage by 30%.\nIncreases Max HP by 60.";
 
             // EN: The scroll of power representing survival.\nIt isn't the strongest that survives, it's the survived who is the strongest.
-            // KR: »ıÁ¸¼úÀ» ´ëÇ¥ÇÏ´Â ±Ç´ÉÀÇ µÎ·ç¸¶¸®.\n°­ÇÑ ÀÚ°¡ »ì¾Æ³²´Â °ÍÀÌ ¾Æ´Ï¶ó, »ì¾Æ³²´Â ÀÚ°¡ °­ÇÑ °ÍÀÌ´Ù.
+            // KR: ìƒì¡´ìˆ ì„ ëŒ€í‘œí•˜ëŠ” ê¶ŒëŠ¥ì˜ ë‘ë£¨ë§ˆë¦¬.\nê°•í•œ ìê°€ ì‚´ì•„ë‚¨ëŠ” ê²ƒì´ ì•„ë‹ˆë¼, ì‚´ì•„ë‚¨ëŠ” ìê°€ ê°•í•œ ê²ƒì´ë‹¤.
             item.itemLore = "The scroll of power representing survival.\nIt isn't the strongest that survives, it's the survived who is the strongest.";
 
             item.prefabKeyword1 = Inscription.Key.None;
@@ -216,15 +216,15 @@ public class CustomItems
             item.rarity = Rarity.Unique;
 
             // EN: Epic Scroll of Power
-            // KR: Àü´ÉÀÇ µÎ·ç¸¶¸®
+            // KR: ì „ëŠ¥ì˜ ë‘ë£¨ë§ˆë¦¬
             item.itemName = "Epic Scroll of Power";
 
             // EN: Increases <color=#F25D1C>Physical Attack</color> by 40%.\nIncreases skill cooldown speed by 40%.\nDecreases incoming damage by 20%.\nIncreases Max HP by 45.
-            // KR: <color=#F25D1C>¹°¸®°ø°İ·Â</color>ÀÌ 40% Áõ°¡ÇÕ´Ï´Ù.\n½ºÅ³ Äğ´Ù¿î ¼Óµµ°¡ 40% Áõ°¡ÇÕ´Ï´Ù.\n¹Ş´Â µ¥¹ÌÁö°¡ 20% °¨¼ÒÇÕ´Ï´Ù.\nÃÖ´ëÃ¼·ÂÀÌ 45 Áõ°¡ÇÕ´Ï´Ù.
+            // KR: <color=#F25D1C>ë¬¼ë¦¬ê³µê²©ë ¥</color>ì´ 40% ì¦ê°€í•©ë‹ˆë‹¤.\nìŠ¤í‚¬ ì¿¨ë‹¤ìš´ ì†ë„ê°€ 40% ì¦ê°€í•©ë‹ˆë‹¤.\në°›ëŠ” ë°ë¯¸ì§€ê°€ 20% ê°ì†Œí•©ë‹ˆë‹¤.\nìµœëŒ€ì²´ë ¥ì´ 45 ì¦ê°€í•©ë‹ˆë‹¤.
             item.itemDescription = "Increases <color=#F25D1C>Physical Attack</color> by 40%.\nIncreases skill cooldown speed by 40%.\nDecreases incoming damage by 20%.\nIncreases Max HP by 45.";
 
             // EN: This will make training at least 3 times more efficient!
-            // KR: ÀÌ°É·Î ¼ö·ÃÀÇ ´É·üÀÌ 3¹è´Â ¿À¸£°Ú±º!
+            // KR: ì´ê±¸ë¡œ ìˆ˜ë ¨ì˜ ëŠ¥ë¥ ì´ 3ë°°ëŠ” ì˜¤ë¥´ê² êµ°!
             item.itemLore = "This will make training at least 3 times more efficient!";
 
             item.prefabKeyword1 = Inscription.Key.None;
@@ -248,15 +248,15 @@ public class CustomItems
             item.rarity = Rarity.Common;
 
             // EN: Shield of Greed
-            // KR: Å½¿åÀÇ ¹æÆĞ
+            // KR: íƒìš•ì˜ ë°©íŒ¨
             item.itemName = "Shield of Greed";
 
             // EN: Upon being hit, you gain 15 gold (5 times maximum per room).
-            // KR: ÇÇ°İ ½Ã 15 ±İÈ­°¡ ¶³¾îÁı´Ï´Ù (¹æ¸¶´Ù 5È¸ Á¦ÇÑ).
+            // KR: í”¼ê²© ì‹œ 15 ê¸ˆí™”ê°€ ë–¨ì–´ì§‘ë‹ˆë‹¤ (ë°©ë§ˆë‹¤ 5íšŒ ì œí•œ).
             item.itemDescription = "Upon being hit, you gain 15 gold (5 times maximum per room).";
 
             // EN: Seriously, who would ever make money out of getting hit?\nLet's do it.
-            // KR: ¸ÂÀ¸¸é¼­ µ·À» ¹ú´Ù´Ï, ±×°Í Âü ÇÑ½ÉÇÑ »ı°¢ÀÌ±º.\n´çÀå ÇÏÀÚ.
+            // KR: ë§ìœ¼ë©´ì„œ ëˆì„ ë²Œë‹¤ë‹ˆ, ê·¸ê²ƒ ì°¸ í•œì‹¬í•œ ìƒê°ì´êµ°.\në‹¹ì¥ í•˜ì.
             item.itemLore = "Seriously, who would ever make money out of getting hit?\nLet's do it.";
 
             item.prefabKeyword1 = Inscription.Key.Fortress;
@@ -275,15 +275,15 @@ public class CustomItems
             item.rarity = Rarity.Rare;
 
             // EN: Emergency Health Flask
-            // KR: ºñ»ó¿ë È¸º¹¾à
+            // KR: ë¹„ìƒìš© íšŒë³µì•½
             item.itemName = "Emergency Health Flask";
 
             // EN: When having less than 20% of your health, empties the Health Flask and heals 40% of your health.
-            // KR: ÇöÀç Ã¼·ÂÀÌ 20% ¹Ì¸¸ÀÏ ½Ã È¸º¹¾àÀ» ºñ¿ì¸ç ÇöÀç Ã¼·ÂÀÇ 40%¸¦ È¸º¹ÇÕ´Ï´Ù.
+            // KR: í˜„ì¬ ì²´ë ¥ì´ 20% ë¯¸ë§Œì¼ ì‹œ íšŒë³µì•½ì„ ë¹„ìš°ë©° í˜„ì¬ ì²´ë ¥ì˜ 40%ë¥¼ íšŒë³µí•©ë‹ˆë‹¤.
             item.itemDescription = "When having less than 20% of your health, empties the Health Flask and heals 40% of your health.";
 
             // EN: It is disposable, so please handle with care.
-            // KR: ÀÏÈ¸¿ëÀÌ´Ï Ãë±Ş¿¡ ÁÖÀÇÇØÁÖ¼¼¿ä.
+            // KR: ì¼íšŒìš©ì´ë‹ˆ ì·¨ê¸‰ì— ì£¼ì˜í•´ì£¼ì„¸ìš”.
             item.itemLore = "It is disposable, so please handle with care.";
 
             item.prefabKeyword1 = Inscription.Key.Antique;
@@ -303,15 +303,15 @@ public class CustomItems
             item.rarity = Rarity.Rare;
 
             // EN: Empty Flask
-            // KR: ºó À¯¸®°ü
+            // KR: ë¹ˆ ìœ ë¦¬ê´€
             item.itemName = "Empty Flask";
 
             // EN: When a boss is defeated, refills the Empty Flask.
-            // KR: º¸½º Ã³Ä¡ ½Ã È¸º¹¾àÀÌ ´Ù½Ã Ã¤¿öÁı´Ï´Ù.
+            // KR: ë³´ìŠ¤ ì²˜ì¹˜ ì‹œ íšŒë³µì•½ì´ ë‹¤ì‹œ ì±„ì›Œì§‘ë‹ˆë‹¤.
             item.itemDescription = "When a boss is defeated, refills the Empty Flask.";
 
             // EN: You're not supposed to... chug that...
-            // KR: ¾Æ´Ï... ±×°É ÇÑÀÔ¿¡ ÃÄ ¸¶½Ã¸é... ÇÏ...
+            // KR: ì•„ë‹ˆ... ê·¸ê±¸ í•œì…ì— ì³ ë§ˆì‹œë©´... í•˜...
             item.itemLore = "You're not supposed to... chug that...";
 
             item.prefabKeyword1 = Inscription.Key.Antique;
