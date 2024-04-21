@@ -32,7 +32,7 @@ public class CustomItems
 
             // EN: Increases <color=#F25D1C>Physical Attack</color> by 1000%, and amplifies <color=#F25D1C>Physical Attack</color> by 500%.\nInstant death when hit, negating damage nullification except for invincibility and parrying.
             // KR: <color=#F25D1C>물리공격력</color>이 1000% 증가 및 500% 증폭됩니다.\n피격 시 무적과 패링을 제외한 모든 피해 무효화 수단을 무시하고 즉사합니다.
-            // ZH: 增加1000%<color=#F25D1C>物理攻击力</color>，增幅500%<color=#F25D1C>物理攻击力</color>。\n一击即死，除了格挡或疾驰闪避。
+            // ZH: 增加1000%<color=#F25D1C>物理攻击力</color>，增幅500%<color=#F25D1C>物理攻击力</color>。\n一击即死，除了格挡或无敌或疾驰闪避。
             item.itemDescription = "增加1000%<color=#F25D1C>物理攻击力</color>，增幅500%<color=#F25D1C>物理攻击力</color>。\n一击即死，除了格挡或无敌或疾驰闪避。";
 
             // EN: Kill before you get killed. Simple, right?
