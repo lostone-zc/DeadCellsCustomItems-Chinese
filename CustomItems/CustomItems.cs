@@ -178,7 +178,7 @@ public class CustomItems
             // EN: The scroll of power representing tactics.\nAlways remember that patience is the key to victory.
             // KR: 전략가를 대표하는 권능의 두루마리.\n침착함이야말로 승리를 향한 길임을 명심하자.
             // ZH: 代表战术力量的卷轴，\n记住，耐心是克敌之道。
-            item.itemLore = " 代表战术力量的卷轴，\n记住，耐心是克敌之道。";
+            item.itemLore = "代表战术力量的卷轴，\n记住，耐心是克敌之道。";
 
             item.prefabKeyword1 = Inscription.Key.None;
             item.prefabKeyword2 = Inscription.Key.None;
